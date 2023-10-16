@@ -6,8 +6,8 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [BO.cs](./CS/CustomFileDataSolution.Module/BusinessObjects/BO.cs) (VB: [BO.vb](./VB/CustomFileDataSolution.Module/BusinessObjects/BO.vb))
-* **[InplaceFileData.cs](./CS/CustomFileDataSolution.Module/BusinessObjects/InplaceFileData.cs) (VB: [InplaceFileData.vb](./VB/CustomFileDataSolution.Module/BusinessObjects/InplaceFileData.vb))**
+* [BusinessObject.cs](CS/EF/CustomFileDataEF/CustomFileDataEF.Module/MyModels/BusinessObject.cs)
+* **[InplaceFileData.cs](CS/EF/CustomFileDataEF/CustomFileDataEF.Module/MyModels/InplaceFileData.cs)**
 <!-- default file list end -->
 # How to use the File Attachment Module with a legacy database
 
