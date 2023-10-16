@@ -30,16 +30,4 @@ public class CustomFileDataEFDesignTimeDbContextFactory : IDesignTimeDbContextFa
 		//return new CustomFileDataEFEFCoreDbContext(optionsBuilder.Options);
 	}
 }
-[TypesInfoInitializer(typeof(CustomFileDataEFContextInitializer))]
-public class CustomFileDataEFEFCoreDbContext : DbContext {
-	public CustomFileDataEFEFCoreDbContext(DbContextOptions<CustomFileDataEFEFCoreDbContext> options) : base(options) {
-	}
-	//public DbSet<ModuleInfo> ModulesInfo { get; set; }
-	public DbSet<FileData> FileData { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder) {
-        base.OnModelCreating(modelBuilder);
-        modelBuilder.HasChangeTrackingStrategy(ChangeTrackingStrategy.ChangingAndChangedNotificationsWithOriginalValues);
-        modelBuilder.UsePropertyAccessMode(PropertyAccessMode.PreferFieldDuringConstruction);
-    }
-}
