@@ -31,7 +31,7 @@ This example demonstrates only one possible solution. If you need to cover a dif
 
 * [File Attachments Module](https://docs.devexpress.com/eXpressAppFramework/112781/document-management/file-attachments-module)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-how-to-use-the-file-attachment-module-with-a-legacy-database&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-how-to-use-the-file-attachment-module-with-a-legacy-database&~~~was_helpful=no)
 
