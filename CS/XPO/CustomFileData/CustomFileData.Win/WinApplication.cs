@@ -14,7 +14,6 @@ public class CustomFileDataWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "CustomFileData";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += CustomFileDataWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += CustomFileDataWindowsFormsApplication_CustomizeLanguagesList;
     }
